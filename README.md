@@ -13,7 +13,7 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline using Az
 
 - **Bronze Layer (Raw Ingestion):**
   - Automated data ingestion workflows using **Azure Data Factory** from GitHub repositories into **Azure Data Lake Storage**.
-  - ![Azure Data Factory Pipeline](resources/image.png)
+  - ![Azure Data Factory Pipeline](docs/ADF_Pipeline.png)
 
 - **Silver Layer (Cleaned & Transformed Data):**
   - Leveraged **Databricks** and **PySpark scripts** to perform complex transformations, cleansing, and data validation.
