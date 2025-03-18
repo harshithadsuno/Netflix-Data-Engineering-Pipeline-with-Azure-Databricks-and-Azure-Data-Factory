@@ -17,6 +17,7 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline using Az
 
 - **Silver Layer (Cleaned & Transformed Data):**
   - Leveraged **Databricks** and **PySpark scripts** to perform complex transformations, cleansing, and data validation.
+  - ![Databricks Workflow](docs/Databricks_SilverFlow.png)
 
 - **Gold Layer (Curated Data for Analytics):**
   - Implemented robust data models and aggregations using Databricks to ensure analytics-ready datasets.
