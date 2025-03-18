@@ -11,7 +11,7 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline using Az
 
 ### Project Structure
 - **scripts/**: Python and PySpark scripts for data ingestion, transformation, and orchestration.
-- **resources/**: Supporting files.
+- **resources/**: Data.
 - **docs/**: Diagrams and additional documentation.
 
 ### Pipeline Workflow
@@ -19,16 +19,3 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline using Az
 2. **Silver Layer Processing**: Transforms raw data to the silver layer (`2_Silver.py`, `4_Silver.py`).
 3. **Data Lookup & Validation**: Additional enrichment and validation processes (`3_LookupNotebook.py`, `5_lookupNotebook.py`, `6_falseNotebook.py`).
 4. **Delta Live Tables (DLT)**: Manages and automates the pipeline workflow (`7_DLT_Notebook.py`).
-
-### How to Use
-- Clone the repository.
-- Configure Azure Databricks and Azure Data Factory environments.
-- Upload scripts to Databricks workspace.
-- Execute notebooks and scripts in the order provided.
-
-### Author
-- [Your Name]
-- [Your LinkedIn or GitHub Link]
-
-### License
-This project is licensed under the MIT License.
